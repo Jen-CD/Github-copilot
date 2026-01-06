@@ -37,7 +37,8 @@ main {
 
 @media (min-width: 768px) {
   main {
-    grid-template-columns: 2fr 1fr;
+    flex-direction: row;
+    align-items: flex-start;
   }
 }
 
